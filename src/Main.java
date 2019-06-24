@@ -10,6 +10,8 @@ public class Main {
             int randomInt = rnd.nextInt(7);
             output("Generated number: " + randomInt);
         }
+
+        output("Done.");
     }
 
     private static void output(String aMessage) {
